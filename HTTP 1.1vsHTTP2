@@ -1,0 +1,13 @@
+•	HTTP was a simple protocol for a simple job – transporting documents from a web server to your computer as efficiently as possible.
+•	HTTP, which stands for Hypertext Transfer Protocol, saw wide adoption in the early 1990s to facilitate this, transferring “hypertext” documents. These were simple documents comprising mostly text and a few images, marked up with HTML to add formatting and links to other hypertext documents.
+•	By 1996, the 1.0 specification was adopted. This version was elegant and simple for the needs of the mid-90s web – make a connection, download a file, close the connection, and repeat for each file needed to display a web page.
+•	By the end of 90s the necessity for security, transfer f animated images, video began to raise.
+•	in 1999, the w3 overseeing body updated the HTTP spec to version 1.1. This version was a bit of a stopgap, adding features to the 1.0 specification meant to improve the speed and efficiency of web servers powering this new “hypermedia” version of the web.
+•	Google was working on it’s own replacement for HTTP/1.1 since the early 2010s, called SPDY (pronounced “speedy”). This protocol used the existing infrastructure built for HTTP/1.1, but modified how the requests worked over the infrastructure.
+•	SPDY used multiplexing to download multiple resources efficiently over a single connection.
+•	 in 2015, w3 officially adopted the HTTP/2 specification based on SPDY, and all major browsers began supporting the protocol.
+•	HTTP2 is binary, instead of textual
+•	HTTP2 is fully multiplexed, instead of ordered and blocking
+•	HTTP2 can, therefore, use one connection for parallelism
+•	HTP2 uses header compression to reduce overhead
+•	HTTP2 allows servers to “push” responses proactively into client caches
